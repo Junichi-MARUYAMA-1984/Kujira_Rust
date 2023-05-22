@@ -6,3 +6,4 @@
 *.dSYM
 *.exe
 *.pdb
+*/target/*
