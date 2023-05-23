@@ -7,3 +7,4 @@
 *.exe
 *.pdb
 */target/*
+*/Cargo.lock
