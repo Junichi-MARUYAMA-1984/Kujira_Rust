@@ -3,7 +3,7 @@
 /// # Example
 /// ```
 /// let src = String::from("1 2 + 3 * ");
-/// let a = rpn_calc::eval(src).unwrap();
+/// let a = rpn_calc_JM::eval(src).unwrap();
 /// println!("{}", a); // 9
 /// ```
 pub fn eval(src: String) -> Result<f64, String> {
