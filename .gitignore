@@ -6,5 +6,6 @@
 *.dSYM
 *.exe
 *.pdb
+*.wav
 */target/*
 */Cargo.lock
