@@ -8,7 +8,7 @@ const SERVER_ADDR: &str = "127.0.0.1:8888";
 // Actix Webのメイン関数
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    println!("[SERBER] http://{}/", SERVER_ADDR);
+    println!("[SERVER] http://{}/", SERVER_ADDR);
     // サーバを起動
     HttpServer::new (|| {
         // ルーティングを指定
